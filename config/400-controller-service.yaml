@@ -24,4 +24,5 @@ spec:
   selector:
     control-plane: sample-source-controller-manager
   ports:
-  - port: 443
+  - name: https
+    port: 443
